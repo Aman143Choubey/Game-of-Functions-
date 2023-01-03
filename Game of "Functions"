@@ -1,0 +1,23 @@
+# define the function to sum the numbers in the list
+def sum_numbers(numbers):
+  # initialize the sum to 0
+  total = 0
+  
+  # loop through the numbers in the list
+  for num in numbers:
+    # add the current number to the total
+    total += num
+    
+  # return the total
+  return total
+
+# test the function with the sample list
+numbers = (8, 2, 3, 0, 7)
+result = sum_numbers(numbers)
+
+# print the result
+print(result)
+
+
+The output of this program will be
+20
