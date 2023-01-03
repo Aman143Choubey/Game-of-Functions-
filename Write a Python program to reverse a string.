@@ -1,0 +1,12 @@
+# get the string from the user
+string = input("Enter a string: ")
+
+# reverse the string
+reverse = string[::-1]
+
+# print the reversed string
+print(reverse)
+
+
+For example, if the user enters "1234abcd", the output will be
+dcba4321
