@@ -1,0 +1,30 @@
+# define the function to count the number of upper and lower case letters
+def count_case(string):
+  # initialize the counters for upper and lower case letters
+  upper_count = 0
+  lower_count = 0
+  
+  # loop through the characters in the string
+  for char in string:
+    # if the character is uppercase, increment the upper count
+    if char.isupper():
+      upper_count += 1
+    # if the character is lowercase, increment the lower count
+    elif char.islower():
+      lower_count += 1
+      
+  # return the count of upper and lower case letters
+  return upper_count, lower_count
+
+# test the function with the sample string
+string = 'The quick Brow Fox'
+upper_count, lower_count = count_case(string)
+
+# print the results
+print("No. of Upper case characters:", upper_count)
+print("No. of Lower case characters:", lower_count)
+
+The output of this program will be
+No. of Upper case characters: 3
+No. of Lower case characters: 12
+
